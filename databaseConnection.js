@@ -13,4 +13,3 @@ const dbConfigLocal = {
 var database = mysql.createPool(dbConfigLocal);
 
 module.exports = database;
-		
